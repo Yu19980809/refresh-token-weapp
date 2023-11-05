@@ -1,0 +1,8 @@
+<!--pages/home/index.wxml-->
+<text class="title">pages/home/index.wxml</text>
+
+<view>
+  <v-custom-button title="login" bindtap="onLogin" />
+  <v-custom-button title="fetch" bindtap="onFetchAllCommodities" />
+  <v-custom-button title="create" bindtap="onCreateNewCommodity" />
+</view>

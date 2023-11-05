@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/profile/index"
+  ],
+  "subpackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "pages/search/index",
+        "pages/like/index"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "resolveAlias": {
+    "@/*": "/*"
+  },
+  "usingComponents": {
+    "v-custom-button": "components/custom-button/index"
+  }
+}

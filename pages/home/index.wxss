@@ -1,0 +1,5 @@
+/* pages/home/index.wxss */
+.title {
+  color: var(--primary);
+  font-size: 48rpx;
+}
